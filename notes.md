@@ -16,3 +16,4 @@ gcc  -mcpu=cortex-a7 -ftree-vectorize   -mfloat-abi=hard -mfpu=neon test.c
 main()
 {
 }
+````
