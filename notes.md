@@ -73,7 +73,13 @@ main()
    printf("\n");
 }
 ````
-###Result of the above program
+### How to compile the above program
+````
+gcc  -mcpu=cortex-a7 -ftree-vectorize   -mfloat-abi=hard -mfpu=neon neonadd.c
+Output is the file a.out
+````
+
+### Result of the above program
 ````
 pi@arjuna:~/neon $ ./a.out
 Contents of mat1:   9 9 9 5 9 9 9 9
